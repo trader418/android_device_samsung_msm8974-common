@@ -39,7 +39,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     af.resampler.quality=4 \
     audio.offload.buffer.size.kb=32 \
     audio.offload.gapless.enabled=false \
-    av.offload.enable=true \
     qcom.hw.aac.encoder=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
