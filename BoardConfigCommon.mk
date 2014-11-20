@@ -16,6 +16,8 @@
 -include device/samsung/qcom-common/BoardConfigCommon.mk
 
 # Platform
+TARGET_GLOBAL_CFLAGS += -mfpu=neon-vfpv4 -mfloat-abi=softfp --param l1-cache-size=16 --param l1-cache-line-size=16 --param l2-cache-size=2048
+TARGET_GLOBAL_CPPFLAGS += -mfpu=neon-vfpv4 -mfloat-abi=softfp --param l1-cache-size=16 --param l1-cache-line-size=16 --param l2-cache-size=2048
 TARGET_BOARD_PLATFORM := msm8974
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno330
 
