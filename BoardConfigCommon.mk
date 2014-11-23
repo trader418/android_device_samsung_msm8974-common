@@ -62,6 +62,9 @@ MAX_EGL_CACHE_SIZE := 2048*1024
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
 
+# Include an expanded selection of fonts
+EXTENDED_FONT_FOOTPRINT := true
+
 # Vold
 BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 BOARD_VOLD_MAX_PARTITIONS := 28
