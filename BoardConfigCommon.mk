@@ -15,8 +15,6 @@
 # inherit from qcom-common
 -include device/samsung/qcom-common/BoardConfigCommon.mk
 
-TARGET_SPECIFIC_HEADER_PATH := device/samsung/msm8974-common/include
-
 # Platform
 TARGET_BOARD_PLATFORM := msm8974
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno330
@@ -33,11 +31,6 @@ QCOM_FLUENCE_ENABLED := false
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
-
-# Camera
-TARGET_PROVIDES_CAMERA_HAL := true
-USE_DEVICE_SPECIFIC_CAMERA := true
-COMMON_GLOBAL_CFLAGS += -DSAMSUNG_CAMERA_HARDWARE
 
 # Charger
 BOARD_BATTERY_DEVICE_NAME := "battery"
